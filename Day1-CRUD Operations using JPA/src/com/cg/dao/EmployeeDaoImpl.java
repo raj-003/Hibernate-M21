@@ -10,7 +10,7 @@ public class EmployeeDaoImpl  implements EmployeeDao{
 
 	public EmployeeDaoImpl() {
 		super();
-		em=JPAUtil.getEntityManagert();
+		em=JPAUtil.getEntityManager();
 	}
 
 	@Override
