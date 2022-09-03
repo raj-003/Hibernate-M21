@@ -10,9 +10,7 @@ public class Client {
 		Student std = new Student();
 		StudentService service = new StudentServiceImpl();
 	// creating DB
-	
-		
-	    std.setID(7);
+	   std.setID(7);
 		std.setNAME("SHABNAM");
 		std.setROLLNO(99);
 		std.setQUALIFICATION("BE");
@@ -39,8 +37,7 @@ public class Client {
 		/*std= service.searchStudentByID(7);
 		service.deleteStudent(std);*/
 		
-		
-		
+	
 	}
 
 }
